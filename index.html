@@ -9,8 +9,121 @@
 <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 <!-- daisy ui cdn end -->
+
+
+
+<!-- lato goole fonts start -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Manrope:wght@200;400;600;700;800&display=swap" rel="stylesheet">
+
+<!-- lato google fonts end -->
+<style>
+ .font-lato{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Manrope', sans-serif;
+ }
+
+</style>
+
 </head>
-<body>
+
+
+ 
+<body class="font-lato  px-20  ">
+    <section class="mt-6 text-white">
+        <header class="  bg-white">
+            <div class="navbar bg-base-100 rounded-full bg-orange-500 ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <!-- <label tabindex="0" class="btn btn-ghost btn-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                    </label> -->
+                    <!-- <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"> -->
+                    <ul class="flex gap-8 ">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="navbar-center">
+                    <img  class="h-8"src="./images/logo.png" alt="">
+                  <a class="btn btn-ghost normal-case text-2xl">Fruit Burst</a>
+                </div>
+                <div class="navbar-end ">
+                
+                    <div class="form-control ">
+                        <input type="text" placeholder="Search here" class="input input-bordered w-14 h-8 md:w-auto rounded-full text-xs text-neutral-700 bg-white" />
+                    </div>
+                   
+                 
+                  
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
+        </header>
+    </section>
+
+    <!-- carosol part -->
+    <div class="blur-none flex-row md:flex-col">
+       
+        <div class="carousel   mt-8">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="./images/banner1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+                
+              </div>
+              <div class="text-7xl justify-center">
+                <h1 >Exotic tastes at your <br>doorstep</h1>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="./images/banner2.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="./images/banner3.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="./images/banner4.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+          <!-- end carosol part -->
+        
+    </div>
+    
+
+
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
